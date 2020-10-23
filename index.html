@@ -7,6 +7,23 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDYrELJDe1N_1_IVg1cYTz4sSTZ3bzOkwM",
+        authDomain: "multi-player-car-racing-99754.firebaseapp.com",
+        databaseURL: "https://multi-player-car-racing-99754.firebaseio.com",
+        projectId: "multi-player-car-racing-99754",
+        storageBucket: "multi-player-car-racing-99754.appspot.com",
+        messagingSenderId: "17378917825",
+        appId: "1:17378917825:web:d11da423e939f3901dc340"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
 
   </head>
   <body>
